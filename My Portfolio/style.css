@@ -153,7 +153,6 @@ section #section-right {
 }
 
 .projects {
-    background-color: rgb(107, 102, 102);
     width: 100%;
 }
 
@@ -168,13 +167,73 @@ section #section-right {
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6 {
-    background-color: brown;
-    width: 300px;
-    height: 200px;
-    margin-left: 100px;
+    background-color: rgb(25, 66, 137);
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
-.box-image img {
-    display: inline;
+.box-image {
+    margin: 20px 0 10px 20px;
+    border-radius: 20px;
+}
+
+.box-text{
+    margin: 0 20px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.box-text h6 {
+    padding: 8px 5px 8px 5px;
+    color: rgb(188, 176, 176);
+    background-color: rgb(11, 11, 11);
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-weight: lighter;
+    float: right;
+}
+
+.box-text h5 {
+    font-family: sans-serif;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-weight: lighter;
+    float: center;
+}
+
+.box-text h5 button {
+    margin-top: 5px;
+}
+
+
+.visitlive {
+    margin: 10px 0 0 0;
+    padding: 0px 0 10px 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #131313;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+
+
+.skills {
+    display: inline-flex;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+
+.skills div {
+    margin: 20px 10px 0 100px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
 }
