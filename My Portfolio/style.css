@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     scroll-behavior: smooth;
+    transition: 0.3s;
 }
 
 .forMobile {
@@ -343,6 +344,9 @@ hr {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+/* BLOG */
+
 #blog-btn {
     background-color: rgb(206, 21, 21);;
 }
@@ -382,7 +386,7 @@ hr {
     position: absolute;
     background-color: rgb(241, 236, 236);
     width: 100%;
-    height: 600vh;
+    height: 620vh;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -675,6 +679,10 @@ hr {
     cursor: pointer;
 }
 
+.bodyMore-blogpost button:hover {
+    background-color: rgb(23, 22, 22);
+}
+
 .body-blogpost h6 {
     font-size: 12px;
     padding: 3px;
@@ -683,6 +691,271 @@ hr {
 .title-blogpost span {
     display: inline-flex;
 }
+
+.footer-blog {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 230rem;
+    background-color: rgb(35, 34, 34);
+    left: 19rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+
+.footer-blog img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.footer-blog-s1 {
+    position: inherit;
+    border-right: 5px solid white;
+    height: 100%;
+    width: 22%;
+    margin-left: 50px;
+    color: white;
+    font-size: smaller;
+}
+
+.footer-blog-s1 h4{
+    margin-top: 20px;
+}
+
+.footer-blog-s2 {
+    position: inherit;
+    height: 100%;
+    width: 22%;
+    margin-left: 360px;  
+    padding-left: 20px;  
+}
+
+.footer-blog-s3 {
+    position: inherit;
+    height: 100%;
+    width: 22%;
+    margin-left: 700px;  
+    padding-left: 20px;  
+}
+
+.footer-blog-s2 h3 {
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(237, 128, 11);
+    color: white;
+}
+
+
+.footer-blog-s3 h3 {
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(237, 128, 11);
+    color: white;
+}
+
+.footer-blog-s2 h5 {
+    color: white;
+    line-height: 25px;
+}
+
+.footer-blog-s3 h5 {
+    color: white;
+    line-height: 25px;
+}
+
+
+.footer-blog-s2 h5:hover {
+    padding-left: 5px;
+    background-color: rgb(73, 70, 70);
+    width: 100px;
+}
+
+.footer-blog-s3 h5:hover {
+    padding-left: 5px;
+    background-color: rgb(73, 70, 70);
+    width: 100px;
+}
+
+#loginSignup-btn {
+    border: 2px solid white;
+}
+
+#loginSignup-btn:hover {
+    color: white;
+    background-color: rgb(10, 10, 92);
+}
+
+
+
+/*=============================================
+=            LOGIN CSS STYLING            =
+=============================================*/
+
+.main-body-login {
+    width: 100%;
+    height: 79vh;
+    margin-top: 20px;
+    background-color: rgb(200, 197, 197);
+    display: inline-flex;
+}
+
+.signup-section {
+    background-color: rgb(249, 249, 249);
+    margin-top: 10px;
+    padding: 20px;
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.signup-section input {
+    padding: 5px 10px 5px 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 2px;
+    border: 2px solid rgb(93, 88, 88);
+}
+
+#email-phone {
+    width: 350px;
+}
+
+#password, #retype-password {
+    width: 250px;
+}
+
+#termsandcondition {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.submit-button {
+    width: 100%;
+
+}
+
+#submit-button-signup {
+    margin: 20px 0 0 250px;
+    background-color: green;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#gender-signup {
+    cursor: pointer;
+}
+
+#dob-signup {
+    cursor: text;
+}
+
+
+/*=============================================
+=            LOGIN SECTION            =
+=============================================*/
+
+
+.login-left {
+    position: inherit;
+    width: 40%;
+    height: 100%;
+}
+
+.login-left img {
+    margin-left: 100px;
+}
+
+.login-right {
+    position: inherit;
+    width: 60%;
+    height: 100%;
+    font-family: 'Changa One', cursive;
+}
+
+.login-right h1 {
+    color: rgb(27, 27, 255);
+    font-size: 40px;
+}
+
+.login-right h5 {
+    color: brown;
+    margin-left: 120px;
+    font-family:'Lucida Sans', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+
+.login-section {
+    background-color: rgb(249, 249, 249);
+    margin-top: 10px;
+    padding: 20px;
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.login-section input {
+    padding: 5px 200px 5px 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 2px;
+    border: 2px solid rgb(93, 88, 88);
+}
+
+.si-title-login {
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#password {
+    padding: 5px 120px 5px 5px;
+}
+
+#submit-button-login {
+    margin: 20px 0 0 200px;
+    background-color: green;
+    padding: 10px 50px 10px 50px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.si-image-login {
+    position: absolute;
+    top: 19rem;
+    right: 15rem;
+}
+
+.si-image-login img {
+    border-radius: 10px 20px 20px 50px;
+}
+
+.joinus-signin {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;    
+}
+
+
+
+
+
+
+
+
 
 
 
