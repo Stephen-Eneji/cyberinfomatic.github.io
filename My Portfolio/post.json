@@ -1,6 +1,12 @@
 [
     {
-        "title": "",
-        "Description": ""
+        "postTitle": "",
+        "Description": "",
+        "postInfomation": {
+            "category": "",
+            "timePublished": "",
+            "Author": ""
+        },
+        "postContent": ""
     }
 ]
