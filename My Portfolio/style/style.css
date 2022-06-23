@@ -524,6 +524,43 @@ hr {
 }
 /* TOOGLE BUTTON- END */
 
+#toogle {
+    display: none;
+}
+
+.toogleButton {
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+} 
+
+.toogleButton::after {
+    content: url(/img/sun-svgrepo-com.svg);
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    display: grid;
+    place-content: center;
+    line-height: 0;
+    transition: background-color 1s, transform 1s ease-in;
+} 
+
+#toogle:checked + .toogleButton::after {
+    content: url(/img/moon-svgrepo-com.svg);
+    background-color: burlywood;
+    transform: translateX(50px) rotate(360deg);
+}
+
 #tooglebuttoncontainer-blog {
     position: fixed;
     top: 100px;
@@ -672,7 +709,7 @@ hr {
     border-radius: 10px;
     color: white;
     font-style: italic;
-    font-family: 'Varela', sans-serif;
+    
 }
 
 .bodyMore-blogpost button {
@@ -1086,7 +1123,7 @@ hr {
 
 #newsletter-blog {
     width: 250px;
-    height: 17rem;
+    height: 21rem;
     margin: 5px;
     border: black solid .1px;
     background-color: rgb(45, 41, 41);
@@ -1120,6 +1157,13 @@ hr {
     padding-right: 50px;
 }
 
+#name-newsletter-blog {
+    margin: 10px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+
 #button-newsletter-blog {
     margin: 10px 0 0 10px;
     padding: 5px 20px 5px 20px;
@@ -1135,6 +1179,47 @@ hr {
     font-size: 12px;
 }
 
+.post-reaction-blog {
+    position: inherit;
+    display: inline-flex;
+    margin-top: 100px;
+    padding: 20px 10px 20px 20px;
+    background-color: rgb(201, 195, 195);
+    color: red;
+    width: 50%;
+    height: 3rem;
+}
+
+.fa {
+    color: green;
+    background-color: rgb(201, 195, 195);
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+#radio-thumbs-up{
+    color: green;
+    border: green solid;
+}
+
+#radio-thumbs-down{
+    color: red;
+    border: red solid;
+}
+
+#radio-thumbs-down:hover{
+    background-color: red;
+    color: white;
+    border: red solid;
+}
+
+#radio-thumbs-up:hover{
+    background-color: green;
+    color: white;
+    border: green solid;
+}
+
 
 /*=============================================
 =            POST1 MICRO STYLE            =
@@ -1144,57 +1229,459 @@ hr {
     height: 20rem;
 }
 
-
-
 /*=============================================
 =   POST INFOMATION - END =
 =============================================*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.forMobile {
-    opacity: 0;
-}
-
 /*=============================================
-=            STYLING FOR MOBILE
+=      MEDIA QUERY SECTION
 =============================================*/
 
-.navMenu-container {
-    position: absolute;
-    margin-left: 270px;
-    margin-top: -50px;
-}
-#navMenu > span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: rgb(251, 248, 248);
+@media (min-width:1025px) and (max-width:1282px){ 
+
+    .projects {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .sub-title {
+        width: 50%;
+    }
+
+    .skills {
+        width: 80%;
+    }
+
+    #box1, #box2, #box3, #box4, #box5, #box6 {
+        background-color: rgb(25, 66, 137);
+        width: 100%;
+        height: 450px;
+    }
+
+    .box-image {
+        margin: 20px 20px 10px 10px;
+        width: 330px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    
+    .body-blogpost {
+        width: 450px;
+        background-color: rgb(65, 63, 68);
+        font-family: Helvetica;
+        font-style: normal;
+    }
+
+    .right-section-blog {
+        position: relative;
+        background-color: rgb(211, 209, 209);
+        width: 105%;
+        margin-left: 18.5rem;
+        height: 120%;
+    }
+
+    .main-section-blog {
+        position: absolute;
+        background-color: rgb(241, 236, 236);
+        width: 78%;
+        height: 400vh;
+        margin-top: 20px;
+    }
+
 }
 
-#navMenu > span:not(:last-child) {
-    margin-bottom: 7px;
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .contact {
+        width: 50%;
+        padding: 30px;
+        margin-left: 20%;
+    }
+
+    .projects {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #box1, #box2, #box3{
+        background-color: rgb(25, 66, 137);
+        width: 230px;
+        height: 350px;
+    }
+
+    #box4 {
+        background-color: rgb(25, 66, 137);
+        width: 230px;
+        height: 350px;
+    }
+
+
+    .box-image {
+        border-radius: 0px;
+        width: 180px;
+        height: 100px;
+    }
+
+    #box1 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+    
+    #box2 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    #box3 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    #box4 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    .box-text h6 {
+        font-weight: lighter;
+        font-size: 10px;
+        float: right;
+    }
+    
+    .box-text h5 {
+        font-size: 10px;
+    }
+
+    .box-text h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .visitlive {
+        margin: 10px 0 0 0;
+        padding: 0px 0 10px 0;
+    }
+
+    .skills {
+        width: 90%;    
+    }
+
+    .skills div img {
+        float: right;
+        width: 120px;
+        height: 120px;
+    }
+
+    .skills div {
+        margin: 20px 60px 0 5px;
+        width: 100px;
+        height: 140px;
+        background-color: rgb(116, 133, 186);
+        border-radius: 200px;
+    }
+    
+    .skills div:hover {
+        height: 150px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .scroll-to-top {
+        right: 5rem;
+        top: 1800px;
+        width: 60px;
+        background-color: rgb(248, 248, 248);
+    }
+
 }
 
-#navMenu, #navMenu > span {
-    transition: all .4s ease-in-out;
+
+
+@media (min-width: 801px) and (max-width: 899px) {
+
+    li button {
+        border-radius: 5px;
+        padding: 5px 15px 5px 15px;
+        background-color: rgb(51, 49, 49);
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5vw;
+    }
+
+    .contact {
+        width: 50%;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 20%;
+    }
+
+
+    #box1, #box2, #box3{
+        background-color: rgb(25, 66, 137);
+        width: 200px;
+        height: 320px;
+    }
+
+    #box4 {
+        background-color: rgb(25, 66, 137);
+        width: 200px;
+        height: 320px;
+    }
+
+    .box-image {
+        margin: 10px;
+        border-radius: 0px;
+        width: 170px;
+        height: 100px;
+    }
+
+    #box1 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+    
+    #box2 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    #box3 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    #box4 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    .box-text h6 {
+        font-weight: lighter;
+        font-size: 10px;
+        float: right;
+    }
+    
+    .box-text h5 {
+        font-size: 10px;
+    }
+
+    .box-text h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .projects {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .visitlive {
+        margin: 10px 0 0 0;
+        padding: 0px 0 10px 0;
+    }
+    
+    #skills {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .skills div img {
+        float: right;
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills div {
+        margin: 20px 15px 0 50px;
+        width: 80px;
+        height: 120px;
+        background-color: rgb(116, 133, 186);
+        border-radius: 200px;
+    }
+
+    .scroll-to-top {
+        right: 2rem;
+        top: 1700px;
+        width: 60px;
+        background-color: white;
+        height: 60px;
+        border-radius: 100px 100px 0 0 ;
+        border: 5px solid rgb(206, 33, 33);
+    }
+
+    #footer-txt {
+        margin-left: -200px;
+    }
+
+ }
+
+
+@media (min-width:600px) and (max-width: 800px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    li button {
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        font-size: 1.5vw;
+    }
+
+    ul {
+        margin-top: 50px;
+        margin-right: 50px;
+        animation: float 10s ease-in-out infinite;
+    }
+
+
+    #title {
+        margin-top: 20px;
+        font-size: 3vw;
+    }
+    
+    #about {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: -5px;
+    }
+
+    .contact {
+        width: 50%;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 20%;
+    }
+
+
+    #box1, #box2, #box3{
+        background-color: rgb(25, 66, 137);
+        width: 200px;
+        height: 320px;
+    }
+
+    #box4 {
+        background-color: rgb(25, 66, 137);
+        width: 200px;
+        height: 320px;
+    }
+
+    .box-image {
+        margin: 10px;
+        border-radius: 0px;
+        width: 170px;
+        height: 100px;
+    }
+
+    #box1 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+    
+    #box2 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    #box3 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    #box4 img:hover {
+        opacity: 0.5;
+        width: 200px;
+        height: 120px;
+    }
+
+    .box-text h6 {
+        font-weight: lighter;
+        font-size: 10px;
+        float: right;
+    }
+    
+    .box-text h5 {
+        font-size: 10px;
+    }
+
+    .box-text h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .projects {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .visitlive {
+        margin: 10px 0 0 0;
+        padding: 0px 0 10px 0;
+    }
+    
+    #skills {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .skills div img {
+        float: right;
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills div {
+        margin: 20px 15px 0 50px;
+        width: 80px;
+        height: 120px;
+        background-color: rgb(116, 133, 186);
+        border-radius: 200px;
+    }
+
+    .scroll-to-top {
+        right: 2rem;
+        top: 1700px;
+        width: 60px;
+        background-color: white;
+        height: 60px;
+        border-radius: 100px 100px 0 0 ;
+        border: 5px solid rgb(206, 33, 33);
+    }
+
+    #footer-txt {
+        margin-left: -200px;
+    }
+
+
 }
+
+
+@media (min-width:480px) and (max-width: 599px)  {
+    /* smartphones, Android phones, landscape iPhone */
+    body {
+        background-color: indigo;
+    }
+
+}
+
+ @media (min-width:320px) and (max-width: 479px){ 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    body {
+        background-color: #f81;
+    }
+}
+

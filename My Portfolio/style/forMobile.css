@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mobileHeader {
+    background-color: rgb(37, 35, 35);
+}
+
+#mobileHeader-img {
+    margin: 0;
+    padding: 0;
+}
