@@ -1,13 +1,205 @@
+/*
+DEFAULT STYLE FOR 320PX Mobile
+*/
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    transition: 2s;
 }
+
 
 .mobileHeader {
     background-color: rgb(37, 35, 35);
+    display: inline-flex;
+    width: 100vw;
 }
 
-#mobileHeader-img {
-    margin: 0;
-    padding: 0;
+#mobileBlog-bt {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-left: 120px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
 }
+
+#mobileScrolldown {
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    animation: floatMobile 5s ease-in-out infinite;
+}
+
+.mobile-mainBody {
+    display: inline-flex;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.mobile-left {
+    width: 55%;
+    background-color: black;
+    height: 200px;
+}
+
+.mobile-right {
+    content: url('/img/forMobileimg/Cyberinfomatic\ redesign.jpg');
+    width: 45%;
+    height: 200px;
+}
+
+@keyframes floatMobile {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mobile-left h1, h3 {
+    color: white;
+    padding: 30px 0 0px 20px;
+    animation: floatMobile 5s ease-in-out infinite;
+}
+
+
+.mobile-left h1{
+    font-size: 1.1rem;
+}
+
+
+.mobile-left h3{
+    font-size: 2rem;
+    margin-bottom: -20px;
+}
+
+.mobile-left h4, h5 {
+    color: white;
+    padding: 10px 0 0px 20px;
+    font-size: .5rem;
+}
+
+.mobile-subsection {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+}
+
+.mobile-subsection p {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.mobile-subsection a {
+    padding: 5px;
+}
+
+#projectMobile {
+    margin-top: -30px;
+    margin-bottom: 50px;
+    width: 90%;
+    height: 370px;
+    padding: 5px;
+    border: 5px solid rgb(16, 1, 150);
+    background-color: rgb(231, 231, 231);
+}
+
+#mobile-Title {
+    padding: 20px 0px 20px 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(15, 6, 134);
+}
+
+.project1Mobile img {
+    margin-top: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.mobile-Describtion h6 {
+    width: 200px;
+    padding: 10px;
+    float: right;
+}
+
+#mobile-tech button {
+    padding: 2px;
+}
+
+.mobile-Visitlive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-Visitlive a button {
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    padding: 5px 60px 5px 60px;
+    font-size: 1rem;
+}
+
+.mobileFooter {
+    background-color: brown;
+    width: 100%;
+    height: 80px;
+}
+
+.mobileFooter p {
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.mobile-Skills {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.mobileSkills-p div, #mobileSkills-p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobileSkills-p div, #mobileSkills-p img {
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 500px;
+}
+
+.mobileSkills-btn {
+    position: absolute;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+
+
+/*
+DEFAULT STYLE FOR 320PX Mobile
+*/

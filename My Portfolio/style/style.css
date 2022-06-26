@@ -530,18 +530,20 @@ hr {
 
 .toogleButton {
     display: inline-block;
-    width: 90px;
-    height: 35px;
-    background-color: white;
+    margin-top: 5px;
+    width: 80px;
+    height: 20px;
+    background-color: rgb(101, 101, 104);
+    border: 2px solid rgb(217, 216, 222);
     border-radius: 30px;
     position: relative;
     cursor: pointer;
 } 
 
 .toogleButton::after {
-    content: url(/img/sun-svgrepo-com.svg);
-    width: 40px;
-    height: 40px;
+    content: url('/img/sun.png');
+    width: 20px;
+    height: 20px;
     background-color: brown;
     border: 2px solid white;
     border-radius: 50%;
@@ -556,7 +558,7 @@ hr {
 } 
 
 #toogle:checked + .toogleButton::after {
-    content: url(/img/moon-svgrepo-com.svg);
+    content: url('/img/moon.png');
     background-color: burlywood;
     transform: translateX(50px) rotate(360deg);
 }
@@ -620,6 +622,8 @@ hr {
     width: 200px;
     float: right;
     padding: 5px;
+    margin-right: -6px;
+    margin-top: 1px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     border: 2px solid rgb(119, 100, 100);
@@ -640,7 +644,7 @@ hr {
 }
 
 .fa-search {
-    color: white
+    color: white;
 }
 
 .headerTitle-blog {
@@ -827,6 +831,10 @@ hr {
     color: white;
     background-color: rgb(10, 10, 92);
 }
+
+
+
+
 
 
 
@@ -1179,6 +1187,11 @@ hr {
     font-size: 12px;
 }
 
+
+/*=============================================
+=           REACTION STYLING          =
+=============================================*/
+
 .post-reaction-blog {
     position: inherit;
     display: inline-flex;
@@ -1190,34 +1203,21 @@ hr {
     height: 3rem;
 }
 
-.fa {
-    color: green;
-    background-color: rgb(201, 195, 195);
-    cursor: pointer;
-    transition: 0.5s;
-    margin: 10px;
+
+input:checked + #like{
+    background-color: rgb(12, 117, 236);
 }
 
-#radio-thumbs-up{
-    color: green;
-    border: green solid;
+input:checked + #dislike{
+    background-color: rgb(207, 15, 54);
 }
 
-#radio-thumbs-down{
-    color: red;
-    border: red solid;
+.post-reaction-blog label {
+    padding: 5px;
 }
 
-#radio-thumbs-down:hover{
-    background-color: red;
-    color: white;
-    border: red solid;
-}
-
-#radio-thumbs-up:hover{
-    background-color: green;
-    color: white;
-    border: green solid;
+.post-reaction-blog input {
+    opacity: 0;
 }
 
 
@@ -1669,16 +1669,7 @@ hr {
 
 }
 
-
-@media (min-width:480px) and (max-width: 599px)  {
-    /* smartphones, Android phones, landscape iPhone */
-    body {
-        background-color: indigo;
-    }
-
-}
-
- @media (min-width:320px) and (max-width: 479px){ 
+@media (min-width:320px) and (max-width: 599px){ 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     body {
         background-color: #f81;
