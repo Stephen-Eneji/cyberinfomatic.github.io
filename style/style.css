@@ -1746,7 +1746,9 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 350vh;
+        height: 170vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     .projects #subdiv {
@@ -1757,6 +1759,8 @@ input:checked + #dislike{
     #projects {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin-left: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
      
     .skills {
@@ -1824,6 +1828,10 @@ input:checked + #dislike{
 
     .scroll-to-top {
         visibility: hidden;
+    }
+
+    #footer-txt {
+        padding-left: 300px;
     }
 }
 
