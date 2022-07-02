@@ -1746,7 +1746,8 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 220vh;
+        height: 380vh;
+        background-color: red;
     }
 
     .projects #subdiv {
@@ -1756,14 +1757,14 @@ input:checked + #dislike{
     
     #projects {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin-left: 10px;
+        margin-left: 30px;
     }
      
     .skills {
         background-color: rgb(243, 242, 242);
         width: 80%;
         height: 1vh;
-        margin-top: 5px;
+        margin-left: 10px;
     }
 
     #box1, #box2, #box3, #box4, #box5, #box6 {
@@ -1810,11 +1811,7 @@ input:checked + #dislike{
         margin-top: 1200px;
         margin-left: 30px;
     }
-    
-    .skills {
-        margin-left: 10px;
-    }
-    
+
     .skills div {
         background-color: rgb(243, 242, 242);
         border-radius: 200px;
