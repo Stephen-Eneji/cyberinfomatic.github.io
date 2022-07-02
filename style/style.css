@@ -10,6 +10,11 @@
     max-width: 100%;
 }
 
+.main {
+    width: 1200px;
+    max-width: 100%;
+}
+
 header {
     background-color: rgb(34, 32, 32);
     display: inline-block;
@@ -1747,7 +1752,7 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 180vh;
+        height: 210vh;
     }
 
     .projects #subdiv {
@@ -1768,8 +1773,39 @@ input:checked + #dislike{
     }
 
     #skills {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
+    #box1, #box2, #box3, #box4, #box5, #box6 {
+        background-color: rgb(25, 66, 137);
+        width: 80%;
+        height: 500px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    
+    .box-image {
+        width: 85%;
+    }
+
+    #skills{
+        margin-top: 400px;
+    }
+    
+    .skills div {
+        background-color: rgb(243, 242, 242);
+        border-radius: 200px;
+    }
+    
+    .skills div:hover {
+        height: 170px;
+        background-color: rgb(243, 242, 242);
+        border-radius: 200px;
+    }
+
+    .scroll-to-top {
+        visibility: hidden;
+    }
 }
 
