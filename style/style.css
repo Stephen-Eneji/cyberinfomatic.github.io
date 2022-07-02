@@ -1756,7 +1756,7 @@ input:checked + #dislike{
     
     #projects {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin-left: 1px;
+        margin-left: 50px;
     }
      
     .skills {
@@ -1781,7 +1781,8 @@ input:checked + #dislike{
     }
 
     #skills{
-        margin-top: 250px;
+        margin-top: 1200px;
+        margin-left: 30px;
     }
     
     .skills div {
