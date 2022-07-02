@@ -1746,7 +1746,7 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 400vh;
+        height: 200vh;
     }
 
     .projects #subdiv {
@@ -1766,13 +1766,9 @@ input:checked + #dislike{
         margin-top: 50px;
     }
 
-    #skills{
-        margin-top: 2000px;
-    }
-
     #box1, #box2, #box3, #box4, #box5, #box6 {
         background-color: rgb(25, 66, 137);
-        width: 80%;
+        width: 90%;
         height: 500px;
         margin-left: 30px;
         margin-bottom: 30px;
@@ -1785,7 +1781,7 @@ input:checked + #dislike{
     }
 
     #skills{
-        margin-top: 400px;
+        margin-top: 200px;
     }
     
     .skills div {
@@ -1797,6 +1793,10 @@ input:checked + #dislike{
         height: 170px;
         background-color: rgb(243, 242, 242);
         border-radius: 200px;
+    }
+
+    #footer-txt {
+        padding-left: 300px;
     }
 
     .scroll-to-top {
