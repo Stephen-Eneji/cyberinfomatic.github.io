@@ -1756,7 +1756,7 @@ input:checked + #dislike{
     
     #projects {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin-left: 50px;
+        margin-left: 10px;
     }
      
     .skills {
@@ -1769,20 +1769,50 @@ input:checked + #dislike{
     #box1, #box2, #box3, #box4, #box5, #box6 {
         background-color: rgb(25, 66, 137);
         width: 90%;
-        height: 500px;
+        height: 400px;
         margin-left: 30px;
         margin-bottom: 30px;
         border-radius: 10px;
     }
     
+        
+    #box1 img:hover {
+        background-color: rgb(25, 66, 137);
+    }
+
+
+    #box2 img:hover {
+        background-color: rgb(25, 66, 137);
+    }
+
+    #box3 img:hover {
+        background-color: rgb(25, 66, 137);
+    }
+
+    #box4 img:hover {
+        background-color: rgb(25, 66, 137);
+    }
+
+    #box5 img:hover {
+        background-color: rgb(25, 66, 137);
+    }
+
+    #box6 img:hover {
+        background-color: rgb(25, 66, 137);
+    }
+
     .box-image {
         width: 90%;
-        height: 45%;
+        height: 40%;
     }
 
     #skills{
         margin-top: 1200px;
         margin-left: 30px;
+    }
+    
+    .skills {
+        margin-left: 10px;
     }
     
     .skills div {
