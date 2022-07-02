@@ -1539,7 +1539,7 @@ input:checked + #dislike{
  }
 
 
- @media (min-width:599px) and (max-width: 800px)  { 
+ @media screen and (max-width: 800px)  { 
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     
     li button {
@@ -1679,7 +1679,7 @@ input:checked + #dislike{
 
 }
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 490px){ 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     header {
         background-color: rgb(34, 32, 32);
@@ -1746,7 +1746,7 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 210vh;
+        height: 400vh;
     }
 
     .projects #subdiv {
@@ -1766,9 +1766,8 @@ input:checked + #dislike{
         margin-top: 50px;
     }
 
-    #skills {
-        margin-top: 5px;
-        margin-left: 50px;
+    #skills{
+        margin-top: 2000px;
     }
 
     #box1, #box2, #box3, #box4, #box5, #box6 {
