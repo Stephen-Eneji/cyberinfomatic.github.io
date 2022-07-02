@@ -1833,6 +1833,11 @@ input:checked + #dislike{
 
      #footer-txt {
         padding-left: 250px;
+
+    }
+    .skills-btn {
+        margin-top: 5px;
+        margin-left: -50px;
     }
 }
 
