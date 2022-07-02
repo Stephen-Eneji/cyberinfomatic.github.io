@@ -1818,6 +1818,7 @@ input:checked + #dislike{
     .skills div {
         background-color: rgb(243, 242, 242);
         border-radius: 200px;
+        width: 50px;
     }
     
     .skills div:hover {
@@ -1831,7 +1832,7 @@ input:checked + #dislike{
     }
 
      #footer-txt {
-        padding-left: 30px;
+        padding-left: 250px;
     }
 }
 
