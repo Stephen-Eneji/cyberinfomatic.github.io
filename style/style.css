@@ -1746,8 +1746,7 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 360vh;
-        background-color: red;
+        height: 350vh;
     }
 
     .projects #subdiv {
