@@ -1746,7 +1746,7 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 200vh;
+        height: 220vh;
         padding-bottom: 0;
         margin-bottom: 0;
     }
@@ -1830,7 +1830,7 @@ input:checked + #dislike{
         visibility: hidden;
     }
 
-    #footer-txt {
+     #footer-txt {
         padding-left: 30px;
     }
 }
