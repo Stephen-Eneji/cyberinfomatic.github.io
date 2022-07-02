@@ -1416,9 +1416,6 @@ input:checked + #dislike{
 
 
 @media (min-width: 801px) and (max-width: 899px) {
-    .forMobile {
-        display: none;
-    }    
 
     li button {
         border-radius: 5px;
@@ -1688,7 +1685,7 @@ input:checked + #dislike{
     header {
         background-color: rgb(34, 32, 32);
         display: inline-block;
-        min-width: 100%;
+        width: 100%;
         height: 100px;
         display: flex;
         justify-content: right;
@@ -1736,13 +1733,12 @@ input:checked + #dislike{
         width: 100%;
         margin-left: 1px;
         margin-right: 0;
-        justify-content: center;
+        justify-content: left;
     }
 
     #socials {
-        padding: 0px;
-        width: 5%;
-    }
+       margin: 5%;
+    }  
 
     .sub-title {
         background-color: white;
@@ -1758,7 +1754,12 @@ input:checked + #dislike{
         display: block;
     }
 
-        
+    
+    #projects {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 1px;
+    }
+     
     .skills {
         display: block;
         background-color: rgb(243, 242, 242);
