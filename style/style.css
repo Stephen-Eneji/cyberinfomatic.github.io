@@ -296,12 +296,13 @@ hr {
 .skills {
     display: inline-flex;
     width: 100vw;
+    margin-left: 50px;
     max-width: 100%;
     height: 200px;
 }
 
 #skills {
-    margin-left: 50px;
+    margin-left: 50px;  
 }
 
 .skills div {
@@ -310,6 +311,7 @@ hr {
     height: 150px;
     background-color: rgb(116, 133, 186);
     border-radius: 200px;
+    
 }
 
 .skills div:hover {
@@ -1243,11 +1245,6 @@ input:checked + #dislike{
 =============================================*/
 
 @media (min-width:1025px) and (max-width:1282px){ 
-
-    .forMobile {
-        display: none;
-    }
-    
     .projects {
         width: 80%;
         margin-left: 10%;
@@ -1542,7 +1539,7 @@ input:checked + #dislike{
  }
 
 
-@media (min-width:600px) and (max-width: 800px)  { 
+ @media (min-width:599px) and (max-width: 800px)  { 
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     
     li button {
@@ -1682,7 +1679,7 @@ input:checked + #dislike{
 
 }
 
-@media screen and (max-width: 599px){ 
+@media screen and (max-width: 600px){ 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     header {
         background-color: rgb(34, 32, 32);
@@ -1763,15 +1760,14 @@ input:checked + #dislike{
     }
      
     .skills {
-        display: block;
-        position: inherit;
         background-color: rgb(243, 242, 242);
         width: 80%;
-        height: 90vh;
+        height: 1vh;
+        margin-top: 50px;
     }
 
     #skills {
-        margin-top: 50px;
+        margin-top: 5px;
         margin-left: 50px;
     }
 
@@ -1786,6 +1782,7 @@ input:checked + #dislike{
     
     .box-image {
         width: 85%;
+        height: 40%;
     }
 
     #skills{
