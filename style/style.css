@@ -1746,7 +1746,7 @@ input:checked + #dislike{
     }
 
     .projects {
-        height: 380vh;
+        height: 360vh;
         background-color: red;
     }
 
@@ -1808,7 +1808,7 @@ input:checked + #dislike{
     }
 
     #skills{
-        margin-top: 1200px;
+        margin-top: 100px;
         margin-left: 30px;
     }
 
