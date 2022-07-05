@@ -1995,7 +1995,7 @@ input:checked + #dislike{
 
 }
 
-@media screen and (max-width:390px) {
+@media screen and (min-width:390px) {
 
     .tooglecontainer-blog {
         position: fixed;
