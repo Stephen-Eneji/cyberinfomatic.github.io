@@ -391,7 +391,7 @@ hr {
     position: absolute;
     background-color: rgb(241, 236, 236);
     width: 78%;
-    height: 620vh;
+    height: 300vh;
     margin-top: 20px;
 }
 
@@ -437,6 +437,14 @@ hr {
     padding-bottom: 10px;
     padding-left: 10%;
     background-color: brown;
+}
+
+
+.title2-blog {
+    color: white;
+    padding-top: 0px;
+    margin-top: 200px;
+    
 }
 
 .title2-blog h4 {
@@ -639,7 +647,6 @@ hr {
     opacity: 1;
 }
 
-
 .fa {
     float: right;
     border: 2px solid black;
@@ -717,8 +724,7 @@ hr {
     font-family: Helvetica;
     border-radius: 10px;
     color: white;
-    font-style: italic;
-    
+    font-style: italic; 
 }
 
 .bodyMore-blogpost button {
@@ -750,7 +756,7 @@ hr {
     position: absolute;
     width: 78.5%;
     height: 50%;
-    top: 232rem;
+    top: 130rem;
     background-color: rgb(35, 34, 34);
     left: 18rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -836,12 +842,6 @@ hr {
     color: white;
     background-color: rgb(10, 10, 92);
 }
-
-
-
-
-
-
 
 /*=============================================
 =            LOGIN CSS STYLING            =
@@ -1016,7 +1016,7 @@ hr {
 .main-section-post1 {
     position: absolute;
     background-color: rgb(241, 236, 236);
-    width: 78%;
+    width: 85%;
     height: 300vh;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -1131,7 +1131,7 @@ hr {
     margin-left: 10px;
     border: brown solid 2px;
     width: 250px;
-    height: 40rem;
+    height: 25rem;
 }
 
 #newsletter-blog {
@@ -1175,7 +1175,6 @@ hr {
     padding: 10px;
     padding-right: 50px;
 }
-
 
 #button-newsletter-blog {
     margin: 10px 0 0 10px;
@@ -1241,7 +1240,7 @@ input:checked + #dislike{
 
 
 /*=============================================
-=      MEDIA QUERY SECTION
+=      MEDIA QUERY SECTION PORTFOLIO
 =============================================*/
 
 @media (min-width:1025px) and (max-width:1282px){ 
@@ -1296,13 +1295,7 @@ input:checked + #dislike{
 
 }
 
-
 @media (min-width: 900px) and (max-width: 1024px) {
-
-    .forMobile {
-        display: none;
-    }
-    
     .contact {
         width: 50%;
         padding: 30px;
@@ -1411,8 +1404,6 @@ input:checked + #dislike{
     }
 
 }
-
-
 
 @media (min-width: 801px) and (max-width: 899px) {
 
@@ -1537,7 +1528,6 @@ input:checked + #dislike{
     }
 
  }
-
 
  @media screen and (max-width: 800px)  { 
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -1841,3 +1831,362 @@ input:checked + #dislike{
     }
 }
 
+
+/*=============================================
+=         MEDIA QUERY BLOG SECTION =
+=============================================*/
+
+@media screen and (min-width:1800px){        
+    .footer-post1-s1 {
+        position: inherit;
+        border-right: 5px solid rgb(194, 7, 7);
+        height: 100%;
+        width: 22%;
+        margin-left: 50px;
+        color: white;
+        font-size: smaller;
+    }
+}
+
+@media screen and (min-width:1650px){        
+    .footer-post1 {
+        display: inline;
+        position: absolute;
+        width: 80%;
+        height: 50%;
+        top: 130rem;
+        background-color: rgb(35, 34, 34);
+        left: 18rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: 0.3s;
+    }
+
+    
+    
+}
+
+@media screen and (min-width:1367px){
+        
+    .footer-blog {
+        display: inline;
+        position: absolute;
+        width: 79%;
+        height: 50%;
+        top: 130rem;
+        background-color: rgb(35, 34, 34);
+        left: 18rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: 0.3s;
+    }
+
+    .main-section-blog {
+        background-color: rgb(241, 236, 236);
+        width: 87%;
+        height: 380vh;
+        margin-top: 20px;
+    }
+
+        
+    .right-section-blog {
+        position: relative;
+        background-color: rgb(211, 209, 209);
+        width: 90%;
+        margin-left: 18.5rem;
+        height: 100%;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:1366px) {
+    .left-section-blog {
+        position: fixed;
+        background-color: rgb(218, 148, 16);
+        width: 10rem;
+        margin-left: 1px;
+        height: 100vh;
+    }
+
+    .list-blog li {
+        width: 60%;
+        float: left;
+        text-align: left;
+        font-size: 10px;
+        list-style: circle;
+        margin-left: 10px;
+        line-height: 25px;
+    }
+
+        
+    .right-section-blog {
+        position: relative;
+        background-color: rgb(211, 209, 209);
+        width: 100%;
+        margin-left: 12rem;
+    }
+
+    .posts-blog {
+        width: 50%;
+        margin-left: 5px;
+    }
+
+    .posts-blog img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .image-blogpost {
+        padding: 0;
+        margin: 0;
+    }
+
+    .title-blogpost h3 {
+        margin-left: -20px;
+    }
+    .title-blogpost span {
+        margin: -50px;
+    }    
+
+    .footer-blog {
+        display: inline;
+        position: absolute;
+        width: 85%;
+        height: 50%;
+        top: 130rem;
+        background-color: rgb(35, 34, 34);
+        left: 12rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: 0.3s;
+    }
+
+    .main-section-blog {
+        background-color: rgb(241, 236, 236);
+        width: 85%;
+        height: 320vh;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1365px) {
+
+    .main-section-blog {
+        position: absolute;
+        background-color: rgb(241, 236, 236);
+        width: 85%;
+        height: 380vh;
+        margin-top: 20px;
+    }
+
+    .image-blogpost img {
+        width: 100px;
+        height: 100px;
+        margin-right: 100px;
+    }
+
+    .left-section-blog {
+        background-color: rgb(218, 148, 16);
+        width: 20rem;
+    }
+
+    .tooglecontainer-blog {
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+
+    .tooglecontainer-blog {
+        position: fixed;
+        top: 110px;
+        left: 5px;
+        width: 100px;
+        height: 30px;
+        z-index: 200;
+        visibility: hidden;
+    }
+
+    header {
+        background-color: rgb(34, 32, 32);
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: right;
+    }
+
+    header li #blog-btn {
+        padding: 10px 40px 10px 40px;
+        font-size: 10px;
+        margin-left: 50%;
+    }
+
+    #loginSignup-btn {
+        font-size: 7px;
+    }
+
+    .main-section-blog {
+        display: block;
+    }
+
+    .right-section-blog {
+        position: relative;
+        background-color: rgb(211, 209, 209);
+        width: 100vw;
+        margin-left: 0;
+        height: 100%;
+    }
+
+    .left-section-blog {
+        visibility: hidden;
+    }
+
+    .posts-blog {
+        width: 50px;
+        margin-left: 5px;
+    }
+
+    .title-blogpost {
+        width: 200px;
+        margin-left: -40px;
+        font-size: 10px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: rgb(5, 5, 5);
+        font-weight: 900;
+    }
+
+    .blog-right-section {
+        position: absolute;
+        display: block;
+        top: 115rem;
+        left: 1rem;
+        width: 260px;
+        height: 25rem;
+    }
+
+    .body-blogpost {
+        width: 250px;
+        height: 70px;
+        margin-top: 1px;
+        margin-left: -30px;
+        padding-top: 10px;
+        padding-left: 5px;
+        background-color: rgb(20, 19, 19);
+        line-height: 15px;
+        font-family: Helvetica;
+        text-transform: lowercase;
+        border-radius: 10px;
+        color: rgb(243, 240, 240);
+        font-style: italic; 
+    }
+    
+    .bodyMore-blogpost button {
+        padding: 10px 20px 10px 20px;
+        background-color: rgba(208, 6, 6, 0.968);
+        color: rgb(241, 241, 242);
+        border: none;
+        margin-left: 10px;
+        margin-top: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    #keyword-blog {
+        font-size: 12px;
+    }
+
+    #keyword-blog button {
+        font-size: 8px;
+    }
+        
+    .advert-blog {
+        margin: 30px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        border: brown solid 2px;
+        width: 300px;
+        height: 10rem;
+    }
+
+    #newsletter-blog {
+        width: 350px;
+        height: 20rem;
+        margin: 5px;
+        border: black solid .1px;
+        background-color: rgb(45, 41, 41);
+        margin-bottom: 50px;
+    }
+
+    #newsletter-blog h4 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(33, 103, 131);
+        color: white;    
+        border-bottom: 5px solid white;
+    }
+
+    #newsletter-blog h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 25px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        color: rgb(254, 248, 248);
+    }
+
+    .right-section-blog {
+        position: relative;
+        background-color: rgb(211, 209, 209);
+        height: 120%;
+    }
+
+    .footer-blog {
+        display: inline;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        top: 190rem;
+        background-color: rgb(35, 34, 34);
+        left: 0rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .footer-blog img {
+        width: 50px;
+        margin-top: 30px;
+    }
+    
+    .footer-blog-s1 {
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+    .footer-blog-s2 {
+        position: inherit;
+        height: 100%;
+        width: 22%;
+        font-size: 10px;
+        margin-left: 100px;  
+        padding-left: 20px;  
+    }
+
+    .footer-blog-s3 {
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+    .footer-blog-s3 {
+        position: inherit;
+        height: 100%;
+        width: 22%;
+        margin-left: 200px;  
+        padding-left: 20px;  
+    }
+
+}
