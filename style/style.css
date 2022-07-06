@@ -1995,8 +1995,7 @@ input:checked + #dislike{
 
 }
 
-@media screen and (min-width:390px) {
-
+@media screen and (min-width:320px) {
     .tooglecontainer-blog {
         position: fixed;
         top: 110px;
@@ -2019,11 +2018,12 @@ input:checked + #dislike{
     header li #blog-btn {
         padding: 10px 40px 10px 40px;
         font-size: 10px;
-        margin-left: 50%;
+        margin-left: 90%;
     }
 
     #loginSignup-btn {
-        font-size: 7px;
+        font-size: 5px;
+        
     }
 
     .main-section-blog {
@@ -2110,7 +2110,26 @@ input:checked + #dislike{
         height: 10rem;
     }
 
+    #advert-post1 {
+        margin: 30px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        border: brown solid 2px;
+        width: 300px;
+        height: 10rem;
+        background-color: white;
+    }
+
     #newsletter-blog {
+        width: 350px;
+        height: 20rem;
+        margin: 5px;
+        border: black solid .1px;
+        background-color: rgb(45, 41, 41);
+        margin-bottom: 50px;
+    }
+
+    #newsletter-post1 {
         width: 350px;
         height: 20rem;
         margin: 5px;
@@ -2127,6 +2146,28 @@ input:checked + #dislike{
         background-color: rgb(33, 103, 131);
         color: white;    
         border-bottom: 5px solid white;
+    }
+
+    
+    #newsletter-post1 h4 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(33, 103, 131);
+        color: white;    
+        border-bottom: 5px solid white;
+    }
+
+    #newsletter-post1 h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 25px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        color: rgb(254, 248, 248);
     }
 
     #newsletter-blog h5 {
@@ -2147,6 +2188,17 @@ input:checked + #dislike{
     }
 
     .footer-blog {
+        display: inline;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        top: 190rem;
+        background-color: rgb(35, 34, 34);
+        left: 0rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .footer-post1 {
         display: inline;
         position: absolute;
         width: 100vw;
@@ -2189,4 +2241,161 @@ input:checked + #dislike{
         padding-left: 20px;  
     }
 
+    .headerTitle-post1 h1 {
+        padding: 5px 0px 20px 20px;
+        width: 300px;
+        line-height: 25px;
+        color: black;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .headerTitle-post1 {
+        line-height: 30px;
+        font-family: 'Lato', sans-serif;
+        font-size: .8em;
+    }
+
+        
+    .post-info {
+        background-color: gray;
+        width: 95%;
+        margin: 10px;
+        height: 40px;
+        border-radius: 10px;
+        font-style: italic;
+    }
+
+    
+    .post-info a i {
+        display: inline-flex;
+        margin-left: 10px;
+        padding-top: 5px;
+        padding-left: 10px;
+        color: rgb(187, 13, 13);
+    }
+
+    .post-info a i img {
+        padding-right: 10px;
+    }
+
+    .post-main-content {
+        width: 75vw;
+        margin-top: 20px;
+        height: 280vh;
+        padding: 20px;
+        text-align: left;
+        font-size: 12px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Lato', sans-serif;
+        line-height: 30px;
+    }
+
+    .left-section-post1 {
+        position: fixed;
+        background-color: rgb(218, 148, 16);
+        width: 17rem;
+        margin-left: 1px;
+        height: 100vh;
+        visibility: hidden;
+    }   
+        
+    .post1-code {
+        background-color: rgb(222, 221, 221);
+        border: 2px solid rgb(128, 122, 122);
+        width: 100%;
+        padding: 0;
+        margin: 5px;   
+    }    
+
+    .post-reaction-blog {
+        position: inherit;
+        display: inline-flex;
+        margin-top: 100px;
+        padding: 20px 10px 20px 20px;
+        background-color: rgb(201, 195, 195);
+        color: red;
+        width: 80%;
+        height: 3rem;
+    }
+
+    #newsletter-post1 {
+        width: 320px;
+        height: 20rem;
+        margin: 1px;
+        border: black solid .1px;
+        background-color: rgb(45, 41, 41);
+        margin-bottom: 50px;
+    }
+        
+    .designline1-blog {
+        position: fixed;
+        top: -50px;
+        left: 200px;
+        width: 50px;
+        height: 300px;
+        background-color: rgb(68, 68, 251);
+        z-index: -1;
+        transform: rotate(35deg);
+    }
+
+    .designline2-blog {
+        visibility: hidden;
+    }
+
+    .designline3-blog {
+        visibility: hidden;
+    }
+
+    .designline4-blog {
+        visibility: hidden;
+    }
+
+    .footer-post1 {
+        display: inline;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        top: 170rem;
+        background-color: rgb(35, 34, 34);
+        left: 0rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .footer-post1 img {
+        width: 50px;
+        margin-top: 30px;
+    }
+    
+    .footer-post1-s1 {
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+    .footer-post1-s2 {
+        position: inherit;
+        height: 100%;
+        width: 22%;
+        font-size: 10px;
+        margin-left: 100px;  
+        padding-left: 20px;  
+    }
+
+    .footer-post1-s3 {
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+    .footer-post1-s3 {
+        position: inherit;
+        height: 100%;
+        width: 22%;
+        margin-left: 200px;  
+        padding-left: 20px;  
+    }
+
+   
+
+   
 }
