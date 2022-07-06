@@ -2022,7 +2022,7 @@ input:checked + #dislike{
     }
 
     #loginSignup-btn {
-        font-size: 5px;
+        font-size: 6px;
         
     }
 
@@ -2395,7 +2395,9 @@ input:checked + #dislike{
         padding-left: 20px;  
     }
 
-   
+    .post1-right-section {
+        background-color: #d3d1d1;
+        height: 220vh;
+    }
 
-   
 }
