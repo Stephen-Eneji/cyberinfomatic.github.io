@@ -2203,7 +2203,7 @@ input:checked + #dislike{
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 190rem;
+        top: 230rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -2397,7 +2397,7 @@ input:checked + #dislike{
 
     .post1-right-section {
         background-color: #d3d1d1;
-        height: 220vh;
+        height: 1500vh;
     }
 
 }
