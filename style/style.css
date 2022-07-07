@@ -2347,7 +2347,7 @@ input:checked + #dislike{
     .blog-right-section {
         position: absolute;
         display: block;
-        top: 130rem;
+        top: 140rem;
         left: 1rem;
         width: 260px;
         height: 25rem;
@@ -2407,7 +2407,6 @@ input:checked + #dislike{
     }
 
     #newsletter-blog {
-        margin-top: 50px;
         width: 350px;
         height: 20rem;
         margin: 5px;
@@ -2608,7 +2607,7 @@ input:checked + #dislike{
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 100rem;
+        top: 110rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -2640,7 +2639,7 @@ input:checked + #dislike{
 
     .post1-right-section {
         background-color: #d3d1d1;
-        height: 150vh;
+        height: 120vh;
     }
  
     header li #contact-btn, #skills-btn, #projects-btn, #home-btn{
