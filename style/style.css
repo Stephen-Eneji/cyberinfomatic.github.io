@@ -1215,15 +1215,6 @@ hr {
     margin-bottom: 50px;
 }
 
-#newsletter-post1 {
-    width: 350px;
-    height: 20rem;
-    margin: 5px;
-    border: black solid .1px;
-    background-color: rgb(45, 41, 41);
-    margin-bottom: 50px;
-}
-
 #newsletter-post1 h4 {
     padding-left: 10px;
     padding-right: 10px;
@@ -2293,7 +2284,7 @@ input:checked + #dislike{
     }
  }
 
-@media screen and (max-width: 490px){ 
+@media screen and (max-width: 480px){ 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     header {
         background-color: rgb(34, 32, 32);
@@ -2416,7 +2407,6 @@ input:checked + #dislike{
     }
 
     #newsletter-post1 {
-        margin-top: 50px;
         width: 350px;
         height: 20rem;
         margin: 5px;
@@ -2493,13 +2483,13 @@ input:checked + #dislike{
         height: 100%;
         width: 22%;
         font-size: 10px;
-        margin-left: 100px;  
+        margin-left: 200px;  
         padding-left: 20px;  
     }
 
     .footer-blog-s3 {
         font-size: 8px;
-        margin-left: 10px;
+        margin-left: 100px;
     }
 
     .headerTitle-post1 h1 {
@@ -2607,7 +2597,7 @@ input:checked + #dislike{
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 110rem;
+        top: 180rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -2638,8 +2628,12 @@ input:checked + #dislike{
     }
 
     .post1-right-section {
-        background-color: #d3d1d1;
-        height: 120vh;
+        position: absolute;
+        display: block;
+        top: 100rem;
+        left: 0rem;
+        width: 260px;
+        height: 25rem;
     }
  
     header li #contact-btn, #skills-btn, #projects-btn, #home-btn{
