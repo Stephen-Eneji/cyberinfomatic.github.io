@@ -2338,7 +2338,7 @@ input:checked + #dislike{
     .blog-right-section {
         position: absolute;
         display: block;
-        top: 140rem;
+        top: 160rem;
         left: 1rem;
         width: 260px;
         height: 25rem;
@@ -2462,7 +2462,7 @@ input:checked + #dislike{
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 210rem;
+        top: 230rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
