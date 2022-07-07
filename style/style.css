@@ -2307,13 +2307,14 @@ input:checked + #dislike{
     header li #blog-btn {
         padding: 10px 40px 10px 40px;
         font-size: 10px;
-        margin-left: 80%;
+        margin-left: 60%;
     }
 
     #loginSignup-btn {
-        font-size: 6px;
-        
+        font-size: 6px;        
+        margin-right: 1px;
     }
+
 
     .main-section-blog {
         display: block;
@@ -2324,7 +2325,7 @@ input:checked + #dislike{
         background-color: rgb(211, 209, 209);
         width: 100vw;
         margin-left: 0;
-        height: 100%;
+        height: auto;
     }
 
     .left-section-blog {
@@ -2471,18 +2472,12 @@ input:checked + #dislike{
         color: rgb(254, 248, 248);
     }
 
-    .right-section-blog {
-        position: relative;
-        background-color: rgb(211, 209, 209);
-        height: 120%;
-    }
-
     .footer-blog {
         display: inline;
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 190rem;
+        top: 210rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -2647,7 +2642,7 @@ input:checked + #dislike{
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 220rem;
+        top: 100rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -2984,6 +2979,7 @@ input:checked + #dislike{
         height: 50px;
         margin-right: 100px;
     }
+    
 
 }
 
