@@ -2407,6 +2407,7 @@ input:checked + #dislike{
     }
 
     #newsletter-blog {
+        margin-top: 50px;
         width: 350px;
         height: 20rem;
         margin: 5px;
@@ -2416,6 +2417,7 @@ input:checked + #dislike{
     }
 
     #newsletter-post1 {
+        margin-top: 50px;
         width: 350px;
         height: 20rem;
         margin: 5px;
@@ -2693,6 +2695,7 @@ input:checked + #dislike{
 
     .projects #subdiv {
         display: block;
+        width: 80%;
     }
  
     #projects {
