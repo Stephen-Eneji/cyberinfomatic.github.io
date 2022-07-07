@@ -2462,7 +2462,7 @@ input:checked + #dislike{
         position: absolute;
         width: 100vw;
         height: 200px;
-        top: 230rem;
+        top: 300rem;
         background-color: rgb(35, 34, 34);
         left: 0rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
