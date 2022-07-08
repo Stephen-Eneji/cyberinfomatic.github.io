@@ -2923,9 +2923,7 @@ input:checked + #dislike{
     }
     
     .si-image-login {
-        position: absolute;
-        top: 32rem;
-        right: 5rem;
+        visibility: hidden;
     }
     
     .joinus-signin {
