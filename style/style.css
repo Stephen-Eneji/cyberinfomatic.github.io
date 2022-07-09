@@ -1316,28 +1316,49 @@ input:checked + #dislike{
 .containerfor-eim-container {
     display: flex;
     width: 100%;
+   
 }
 
 .eim-container {
     margin: 20px;
     padding: 5px;
-    width: 250px;
-    height: 500px;
+    width: 80%;
+    height: 35%;
     border: 5px solid rgb(110, 109, 109);
     border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.17);
 }
 
 .c1-top {
     display: block;
 }
 
-.eim-box1 h4 {
+.eim-box1, .eim-box2 h4 {
     padding: 10px;
-    background-color: brown;
-    color: white;
+    background-color: rgb(140, 41, 41);
+    color: rgb(206, 192, 192);
     text-align: center;
+    border-radius: 5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+.eim-box1 img {
+    width: 100%;
+    height: 100px;
+}
+
+.eim-box2 button {
+    padding: 20px;
+    background-color:  rgb(1, 12, 24);
+    color: rgb(250, 250, 250);
+}
+
+.eim-box2 h4 p {
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*=============================================
 =      MEDIA QUERY SECTION PORTFOLIO
@@ -2046,6 +2067,53 @@ input:checked + #dislike{
         margin-top: 100px;
         width: 20em;
     }
+
+    /*
+    STYLING FOR ROADMAP
+    */
+
+    #right-section-eim {
+        background-color: rgba(128, 128, 128, 0.17);
+        width: 70%;
+        padding-left: 100px;
+
+    }
+    
+    .eim-container {
+        margin: 20px;
+        padding: 5px;
+        width: 70%;
+        height: 35%;
+        border: 5px solid rgb(110, 109, 109);
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgba(128, 128, 128, 0.17);
+    }
+
+    .eim-box1, .eim-box2 h4 {
+        padding: 5px;
+        background-color: rgb(140, 41, 41);
+        color: rgb(206, 192, 192);
+        text-align: center;
+        border-radius: 5px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+    }
+    
+    
+    .eim-box2 button {
+        padding: 5px;
+        margin: 2px;
+        background-color:  rgb(1, 12, 24);
+        color: rgb(250, 250, 250);
+        font-size: 10px;
+    }
+    
+    .eim-box2 h4 p {
+        font-size: 10px;
+        padding-bottom: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 899px) {
@@ -2385,6 +2453,58 @@ input:checked + #dislike{
         margin-left: 300px;  
         padding-left: 20px;  
     }
+
+     /*
+    STYLING FOR ROADMAP
+    */
+
+    #right-section-eim {
+        background-color: rgba(128, 128, 128, 0.17);
+        width: 70%;
+        padding-left: 10px
+    }
+    
+    .eim-container {
+        margin: 20px;
+        padding: 5px;
+        width: 70%;
+        height: 35%;
+        border: 5px solid rgb(110, 109, 109);
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgba(128, 128, 128, 0.17);
+    }
+
+    .eim-box1, .eim-box2 h4 {
+        padding: 5px;
+        background-color: rgb(140, 41, 41);
+        color: rgb(206, 192, 192);
+        text-align: center;
+        border-radius: 5px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+    }
+    
+    
+    .eim-box2 button {
+        padding: 5px;
+        margin: 2px;
+        background-color:  rgb(1, 12, 24);
+        color: rgb(250, 250, 250);
+        font-size: 10px;
+    }
+    
+    .eim-box2 h4 p {
+        font-size: 10px;
+        padding-bottom: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        
+    #left-section-roadmap {
+            background-color: rgb(218, 148, 16);
+            width: 13rem;
+        }
+    
  }
 
 @media screen and (max-width: 480px){ 
@@ -2993,7 +3113,24 @@ input:checked + #dislike{
         font-size: 12px;
     }
     
-}
+
+    /*
+    STYLE FOR ROADMAP
+    */
+    .containerfor-eim-container {
+        display: grid;
+        width: 100%;
+        background-color: white;
+        height: 600vh;
+       
+    }
+
+    .eim-container {
+        width: 100%;
+        height: 30%;
+    }
+} 
+
 
 
 /*=============================================
