@@ -1360,6 +1360,58 @@ input:checked + #dislike{
     padding-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.eim-box1 a img {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+/*
+VIDEO RESOURCES STYLE SECTION
+*/
+
+#eim-container-videor {
+    height: 400px;
+    transition-delay: .3s;
+}
+
+
+#eim-box1-videor {
+    padding: 20px;
+    background-color: rgb(9, 9, 9);
+    text-align: center;
+    border-radius: 0px;
+}
+
+#eim-box1-videor img {
+    width: 100%;
+    height: 150px;
+    border: 5px rgb(150, 137, 137) solid;
+}
+
+#eim-box2-videor h4 {
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.17);
+    color: rgb(206, 192, 192);
+    text-align: center;
+    border-radius: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#eim-box2-videor h4 #title-videor {
+    font-size: 10px;
+    background-color: rgb(152, 24, 24);
+    padding: 10px;
+}
+
+h4 #time-videor, #desc-videor{
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 /*=============================================
 =      MEDIA QUERY SECTION PORTFOLIO
 =============================================*/
