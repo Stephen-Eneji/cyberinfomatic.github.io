@@ -3128,6 +3128,7 @@ input:checked + #dislike{
     .eim-container {
         width: 100%;
         height: 30%;
+        margin-bottom: 50px;
     }
 } 
 
