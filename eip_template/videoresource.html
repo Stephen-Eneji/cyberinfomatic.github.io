@@ -112,6 +112,9 @@
                     <div class="eim-box1" id="eim-box1-videor">                   
                         <a href="https://www.youtube.com/watch?v=mU6anWqZJcc">
                             <img src="../img/videoresourceimg/htmlcss.png" alt="Thumbnail">
+                            <div class="show-on-hover">
+                                <h3>Click to Watch</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="eim-box2" id="eim-box2-videor">
@@ -132,6 +135,9 @@
                     <div class="eim-box1" id="eim-box1-videor">                   
                         <a href="https://www.youtube.com/watch?v=fmyvWz5TUWg">
                             <img src="../img/videoresourceimg/rubyonrails.png" alt="Thumbnail">
+                            <div class="show-on-hover">
+                                <h3>Click to Watch</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="eim-box2" id="eim-box2-videor">
@@ -152,6 +158,7 @@
                     <div class="eim-box1" id="eim-box1-videor">                   
                         <a href="https://www.youtube.com/watch?v=grEKMHGYyns">
                             <img src="../img/videoresourceimg/java.png" alt="Thumbnail">
+                            
                         </a>
                     </div>
                     <div class="eim-box2" id="eim-box2-videor">
@@ -175,6 +182,9 @@
                     <div class="eim-box1" id="eim-box1-videor">                   
                         <a href="#">
                             <img src="../img/videoicon.png" alt="Thumbnail">
+                            <div class="show-on-hover" id="box4-show-on-hover">
+                                <h3>Click to Watch</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="eim-box2" id="eim-box2-videor">
@@ -195,6 +205,9 @@
                     <div class="eim-box1" id="eim-box1-videor">                   
                         <a href="https://www.youtube.com/watch?v=t8pPdKYpowI">
                             <img src="../img/videoresourceimg/python.png" alt="Thumbnail">
+                            <div class="show-on-hover" id="box5-show-on-hover">
+                                <h3>Click to Watch</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="eim-box2" id="eim-box2-videor">
@@ -321,9 +334,6 @@ function toogleBodyvideor() {
 
 /*DISABLE TILT ANIMATION ON PHONES*/
 var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
     BlackBerry: function() {
         return navigator.userAgent.match(/BlackBerry/i);
     },
@@ -342,13 +352,14 @@ var isMobile = {
 };
              if(isMobile.any()) { 
                 let roadmapSpecificIDforTilt = document.getElementById("containerfor-eim-container")
-                roadmapSpecificIDlink.style.pointerEvents = 'click';
+                roadmapSpecificIDforTilt.style.pointerEvents = 'none';
+
               }
 
 
 </script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script> -->
     
 </body>
 </html>

@@ -1324,6 +1324,7 @@ input:checked + #dislike{
 .containerfor-eim-container {
     display: flex;
     width: 100%;
+    animation: float 3s ease-in-out infinite;
 }
 
 .eim-container {
@@ -1382,6 +1383,7 @@ VIDEO RESOURCES STYLE SECTION
 */
 
 #eim-container-videor {
+    animation: float 3s ease-in-out infinite;
     height: 400px;
     transition-delay: .3s;
     margin-right: 20px;
@@ -1395,15 +1397,21 @@ VIDEO RESOURCES STYLE SECTION
     border-radius: 0px;
 }
 
+
+
 #eim-box1-videor img {
     width: 100%;
     height: 150px;
     border: 5px rgb(150, 137, 137) solid;
 }
 
+#eim-box1-videor img:hover {
+    opacity: .5;
+}
+
 #eim-box2-videor h4 {
     padding: 10px;
-    background-color: rgba(128, 128, 128, 0.17);
+    background-color: rgba(22, 21, 21, 0.17);
     color: rgb(206, 192, 192);
     text-align: center;
     border-radius: 0px;
@@ -1421,6 +1429,28 @@ h4 #time-videor, #desc-videor{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.show-on-hover{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 15px;
+    padding: 20%;
+    opacity: 0;
+}
+
+.show-on-hover:hover{
+    opacity: 1;
+}
+
+#box4-show-on-hover {
+    color: rgb(255, 250, 250);
+}
+
+#box5-show-on-hover {
+    color: red;
+}
 
 /*=============================================
 =      MEDIA QUERY SECTION PORTFOLIO
