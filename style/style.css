@@ -1037,6 +1037,10 @@ hr {
     height: 100vh;
 }
 
+.left-section-post1 a {
+    color: rgb(210, 207, 201);
+}
+
 
 .headerTitle-post1 {
     line-height: 30px;
@@ -2614,7 +2618,6 @@ h4 #time-videor, #desc-videor{
         font-weight: 900;
     }
 
-
     .blog-right-section {
         position: absolute;
         display: block;
@@ -2631,11 +2634,11 @@ h4 #time-videor, #desc-videor{
         margin-left: -50px;
         padding-top: 10px;
         padding-left: 5px;
-        border-bottom: 5px solid rgb(186, 160, 160);
-        background-color: rgb(186, 160, 160);
+        border-bottom: 5px solid rgb(217, 210, 210);
+        background-color: rgb(94, 29, 246);
         line-height: 15px;
         text-transform: lowercase;
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
         color: rgb(243, 240, 240);
         font-style: italic; 
     }
@@ -2666,6 +2669,18 @@ h4 #time-videor, #desc-videor{
         border: brown solid 2px;
         width: 300px;
         height: 10rem;
+    }
+
+    .blog-right-section {
+        background-color: rgb(211, 209, 209);
+        width: 80%;
+        height: 100%;
+    }
+
+    .post1-right-section {
+        background-color: rgb(211, 209, 209);
+        width: 80%;
+        height: 100%;
     }
 
     #advert-post1 {

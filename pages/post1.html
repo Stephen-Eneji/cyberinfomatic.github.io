@@ -32,7 +32,7 @@
     <!--SPAN FOR LINE DESIGNS - END-->
 
     <!--TOOGLE BUTTON - START-->
-    <span class="tooglecontainer-blog">
+    <span class="tooglecontainer-blog" onclick="toogleBodyPost1()">
         <input type="checkbox" id="toogle">
         <label for="toogle" class="toogleButton"></label>
     </span>
@@ -59,8 +59,8 @@
         </ul>
     </header>
 
-<div class="main-section-post1">
-    <div class="left-section-post1">
+<div class="main-section-post1" id="main-section-post1">
+    <div class="left-section-post1" id="left-section-post1">
         <div class="title-blog"><h4>EDUCATIONAL</h4></div>
         <div class="list-blog">
                 <a href="../eip_template/roadmap.html"><li>Road Maps</li></a>
@@ -85,14 +85,14 @@
 
     </div>
 
-    <div class="right-section-blog">
+    <div class="right-section-blog" id="right-section-post1">
         <div class="right-top-blog" >
             <i class="fa fa-search"></i>
             <input type="search" placeholder="Search.." name="Search" id="search-blog">
         </div>
 
         <div class="headerTitle-post1">
-            <h1>Every Developer should know this about LinkedIn </h1>
+            <h1 id="headerTitle-post1">Every Developer should know this about LinkedIn </h1>
             <div class="post-info">
                 <a href="#"><i><img src="../img/category-fill.svg" width="20px"><h6>Infomation</h6></i></a>
                 <a href="#"><i><img src="../img/alarm-fill.svg" width="20px"><h6>31st-Jul-22 | 20:12pm</h6></i></a>
@@ -101,7 +101,7 @@
             </div>
         </div>
         
-        <div class="post-main-content">
+        <div class="post-main-content" id="post-main-content">
             <br><hr>
             <p>
                 <br>
@@ -109,7 +109,7 @@
 
                 
                 <p>
-                    <pre class="post1-code">
+                    <pre class="post1-code" id="post1-code">
                         <code class="language-css">
                             // NO CODE //                 
                         </code>
@@ -140,7 +140,7 @@
         </div>
             
              <!--SECTION FOR ADVERT AND NEWSLETTER-->
-             <div class="post1-right-section">
+             <div class="post1-right-section" id="post1-right-section">
                 <div class="advert-post1" id="newsletter-post1">
                     <h4>SUBSCRIBE TO NEWSLETTER</h4>
                     <h5>Enter your email address to receive notifications of new posts by email. <br>Stay up to date with CyberInfomatic</h5>
