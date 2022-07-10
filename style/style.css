@@ -2136,7 +2136,7 @@ h4 #time-videor, #desc-videor{
 
     #right-section-eim {
         background-color: rgba(128, 128, 128, 0.17);
-        width: 70%;
+        width: 90%;
         padding-left: 100px;
 
     }
@@ -3211,6 +3211,29 @@ h4 #time-videor, #desc-videor{
         height: 30%;
         margin-bottom: 50px;
         margin-top: 50px;
+    }
+
+    /*
+    STYLE FOR VIDEO RESOURCE
+    */
+
+    .eim-box2 #time-videor  {
+        color: red;
+    }
+
+    .eim-box2 #desc-videor  {
+        color: brown;
+    }
+
+    #title-vr, h1 {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #right-section-eim {
+        background-color: rgba(128, 128, 128, 0.17);
+        width: 100%;
+        height: 100%;
     }
 } 
 

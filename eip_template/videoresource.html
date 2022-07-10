@@ -34,7 +34,7 @@
     <!--SPAN FOR LINE DESIGNS - END-->
 
     <!--TOOGLE BUTTON - START-->
-    <span class="tooglecontainer-blog">
+    <span class="tooglecontainer-blog" onclick="toogleBodyvideor()">
         <input type="checkbox" id="toogle">
         <label for="toogle" class="toogleButton"></label>
     </span>
@@ -96,14 +96,14 @@
     <!--KEY WORD SECTION-->
     <div class="headerTitle-blog">
         <br>
-        <h1>Video Resources</h1>
+        <h1 id="title-vr">Video Resources</h1>
         <div id="keyword-blog"><h6>Keyword:</h6>
             <a href=""><button>Programming</button></a>
             <a href="../eip_template/roadmap.html"><button>RoadMap</button></a>
             <a href="../eip_template/videoresource.html"><button>Free Resources</button></a>
         </div>
             
-        <div class="containerfor-eim-container">
+        <div class="containerfor-eim-container" id="containerfor-eim-container">
     
             <div class="c1-top">
                 <!--BOX 1-->
@@ -302,9 +302,22 @@
 
     
 <script>
-    $('.js-tilt').tilt({
-        scale: 1.2
-    })
+   /*CUSTOMIZED FOR ROADMAP*/
+let rightSectionVideor = document.getElementById("right-section-eim")
+let containerEIM = document.getElementById("containerfor-eim-container")
+let leftvideor = document.getElementById('left-section-roadmap')
+
+function toogleBodyvideor() {
+    rightSectionVideor.style.backgroundColor = '#111211';
+    rightSectionVideor.style.color = 'white';
+    
+    containerEIM.style.backgroundColor = '#111211';
+    containerEIM.style.color = 'white';
+
+    leftvideor.style.backgroundColor = '#403e3a';
+    leftvideor.style.color = '#e8e7e6';
+}
+
 </script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>

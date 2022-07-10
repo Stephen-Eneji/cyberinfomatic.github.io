@@ -34,7 +34,7 @@
     <!--SPAN FOR LINE DESIGNS - END-->
 
     <!--TOOGLE BUTTON - START-->
-    <span class="tooglecontainer-blog">
+    <span class="tooglecontainer-blog" onclick="toogleBodyEIM()">
         <input type="checkbox" id="toogle">
         <label for="toogle" class="toogleButton"></label>
     </span>
@@ -61,7 +61,7 @@
         </ul>
     </header>
 
-<div class="main-section-post1">
+<div class="main-section-post1" id="main-section-post1">
     <div class="left-section-post1" id="left-section-roadmap">
         <div class="title-blog"><h4>EDUCATIONAL</h4></div>
         <div class="list-blog">
@@ -103,7 +103,7 @@
                     <a href="../eip_template/videoresource.html"><button>Free Resources</button></a>
                 </div>
             
-        <div class="containerfor-eim-container">
+        <div class="containerfor-eim-container" id="containerfor-eim-container">
     
             <div class="c1-top">
                 <!--BOX 1-->
@@ -312,10 +312,24 @@
     </div>
 
     
-<script>
-    $('.js-tilt').tilt({
-        scale: 1.2
-    })
+<script>   
+/*CUSTOMIZED FOR ROADMAP*/
+let rightSectionEIM = document.getElementById("right-section-eim")
+let containerEIM = document.getElementById("containerfor-eim-container")
+let leftPost1 = document.getElementById('left-section-roadmap')
+
+function toogleBodyEIM() {
+    rightSectionEIM.style.backgroundColor = '#111211';
+    rightSectionEIM.style.color = 'white';
+    
+    containerEIM.style.backgroundColor = '#111211';
+    containerEIM.style.color = 'white';
+
+    leftPost1.style.backgroundColor = '#403e3a';
+    leftPost1.style.color = '#e8e7e6';
+    
+}
+
 </script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>

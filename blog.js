@@ -10,10 +10,9 @@ searchButton.addEventListener('click', function(e){
 
 /*CUSTOMIZED FOR BLOG*/
 let rightSectionBlog = document.getElementById("right-section-blog")
-
 let leftSectionBlog = document.getElementById("left-section-blog")
-
 let leftSectionAnchor = document.getElementById('left-section-blog-li')
+let BlogRightsection = document.getElementById('blog-right-section')
 
 function toogleBody() {
     rightSectionBlog.style.backgroundColor = '#111211';
@@ -21,6 +20,9 @@ function toogleBody() {
     
     leftSectionBlog.style.backgroundColor = '#323633';
     leftSectionAnchor.style.color = 'white';
+
+    BlogRightsection.style.backgroundColor = '#403e3a';
+    BlogRightsection.style.color = '#e8e7e6';
 }
 
 /*CUSTOMIZED FOR PAGE*/
@@ -51,4 +53,6 @@ function toogleBodyPost1() {
     post1Rightsection.style.backgroundColor = '#403e3a';
     post1Rightsection.style.color = '#e8e7e6';
 }
+
+
 
