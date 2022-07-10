@@ -1023,7 +1023,7 @@ hr {
     position: absolute;
     background-color: rgb(241, 236, 236);
     width: 100%;
-    height: 300vh;
+    height: 350vh;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -1420,7 +1420,7 @@ VIDEO RESOURCES STYLE SECTION
 
 #eim-box2-videor h4 #title-videor {
     font-size: 10px;
-    background-color: rgb(152, 24, 24);
+    background-color: rgb(60, 51, 51);
     padding: 10px;
 }
 
@@ -3264,6 +3264,10 @@ h4 #time-videor, #desc-videor{
         background-color: rgba(128, 128, 128, 0.17);
         width: 100%;
         height: 100%;
+    }
+
+    .main-section-post1 {
+        height: 1100vh;
     }
 } 
 
