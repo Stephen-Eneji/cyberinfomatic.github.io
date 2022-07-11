@@ -750,6 +750,8 @@ hr {
 .body-blogpost h6 {
     font-size: 12px;
     padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
 }
 
 .title-blogpost span {
@@ -1116,7 +1118,6 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
 .github-code {
     margin-left: -100px;
