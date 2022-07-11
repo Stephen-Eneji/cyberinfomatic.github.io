@@ -1,6 +1,6 @@
 MY PORTFOLIO PAGE
 
-# Space Tourism 
+# CYBERINFOMATIC 
 
 > Coded By [Stephen Eneji](https://github.com/stephen-eneji)
 <br/>
