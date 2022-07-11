@@ -2667,7 +2667,7 @@ h4 #time-videor, #desc-videor{
         font-style: bold;
         width: 220px;
         margin-left: -80px;
-        font-size: 11px;
+        font-size: 13px;
         line-height: 30px;
         font-family: Helvetica;
         text-transform: uppercase;
@@ -3309,6 +3309,12 @@ h4 #time-videor, #desc-videor{
     .main-section-post1 {
         height: 650vh;
     }
+
+    .body-blogpost h6 {
+        font-size: 8px;
+        text-transform: capitalize;
+    }
+    
 } 
 
 
