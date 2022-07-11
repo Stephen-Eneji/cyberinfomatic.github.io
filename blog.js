@@ -14,6 +14,7 @@ let leftSectionBlog = document.getElementById("left-section-blog")
 let leftSectionAnchor = document.getElementById('left-section-blog-li')
 let BlogRightsection = document.getElementById('blog-right-section')
 
+
 function toogleBody() {
     rightSectionBlog.style.backgroundColor = '#111211';
     rightSectionBlog.style.color = 'white';
@@ -34,7 +35,6 @@ let headerTitlePost1 = document.getElementById('headerTitle-post1')
 let post1Rightsection = document.getElementById('post1-right-section')
 
 function toogleBodyPost1() {
-    
     leftSectionPost1.style.backgroundColor = '#000';
     leftSectionPost1.style.color = '#e8e7e6';
 
@@ -48,11 +48,11 @@ function toogleBodyPost1() {
     postCode.style.color = '#000000';
     
     headerTitlePost1.style.backgroundColor = '#403e3a';
-    headerTitlePost1.style.color = '#f0110a';
+    headerTitlePost1.style.color = 'white';
 
     post1Rightsection.style.backgroundColor = '#403e3a';
     post1Rightsection.style.color = '#e8e7e6';
 }
 
 
-
+/* MAKE TOOGLE DIV ACT LIKE A TOOGLE */
